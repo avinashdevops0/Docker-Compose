@@ -1,19 +1,19 @@
 version: '3.8'
 services:
   Car-Rental:
-    Container_name: car-rental
-    build: ./Car-Rental
+    container_name: car-rental
+    build: ./car-rental
     ports:
       - "8081:80"
   
   Home-Rental:
-    Container_name: home-rental
-    build: ./Home-Rental
+    container_name: home-rental
+    build: ./home-rental
     ports:
       - "8082:80"
 
   Movie-Rental:
-    Container_name: movie-tickets
-    build: ./Movie-tickets
+    container_name: movie-tickets
+    build: ./movie-tickets
     ports:
       - "8083:80"
