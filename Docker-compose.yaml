@@ -13,7 +13,7 @@ services:
       - "8082:80"
 
   Movie-Rental:
-    Container_name: movie-rental
-    build: ./Movie-Rental
+    Container_name: movie-tickets
+    build: ./Movie-tickets
     ports:
       - "8083:80"
